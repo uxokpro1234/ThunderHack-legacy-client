@@ -1,0 +1,16 @@
+[
+{
+  "modid": "thunderhack",
+  "name": "Thunder Hack",
+  "description": "Example placeholder mod.",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["MrZak34"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "ThLogo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
