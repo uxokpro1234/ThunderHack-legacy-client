@@ -107,7 +107,6 @@ public class Clickgui extends GuiScreen {
 
                     GlStateManager.pushMatrix();
                     GlStateManager.enableBlend();
-//              RenderMethods.glColor(new Color(0.0F, 0.0F, 100.0F, 1.0F));
                     mc.getMinecraft().getTextureManager().bindTexture(new ResourceLocation("textures/lightning.png"));
                     GlStateManager.translate(posX + 90, posY, 0.0F);
                     GlStateManager.rotate(calculateRotation((float)this.progress), 0.0F, 0.0F, 1.0F);
@@ -117,8 +116,6 @@ public class Clickgui extends GuiScreen {
                     float height = 1.0f;
                     ++progress;
 
-                    //mc.renderEngine.bindTexture(lightning);
-                    //drawScaledCustomSizeModalRect(posX + 85, posY - 4, 0, 0, 16, 16, 16, 16, 16,16);
                     counter[0]++;
 
                     if(!m.settings.isEmpty()) {
