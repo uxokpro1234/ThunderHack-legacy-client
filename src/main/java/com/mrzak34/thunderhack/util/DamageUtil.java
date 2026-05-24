@@ -72,7 +72,7 @@ public class DamageUtil
             try {
                 k = EnchantmentHelper.getEnchantmentModifierDamage(ep.getArmorInventoryList(), ds);
             } catch (Exception exception) {
-                // empty catch block
+                    
             }
             float f = MathHelper.clamp((float) k, 0.0f, 20.0f);
             damage *= 1.0f - f / 25.0f;
