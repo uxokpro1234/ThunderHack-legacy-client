@@ -391,10 +391,6 @@ public class BlockUtil
         return output;
     }
 
-    // public static Vec3d[] convertVec3ds(EntityPlayer entity, Vec3d[] input) {
-    //    return BlockUtil.convertVec3ds(entity.getPositionVector(), input);
-    // }
-
     public static boolean canBreak(BlockPos pos) {
         IBlockState blockState = BlockUtil.mc.world.getBlockState(pos);
         Block block = blockState.getBlock();
